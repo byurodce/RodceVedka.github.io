@@ -1,0 +1,24 @@
+body{
+    background: lightblue;
+}
+.load{
+    display: block;
+}
+.images{
+    display: block;
+    margin-left: 400px;
+}
+h1{
+    margin-left: 440px;
+}
+img{
+    width:300px;
+    height: 400px;
+}
+img[data-src]{
+    filter: blur(0.4em);
+}
+img{
+    filter:blur(0em);
+    transition: filter 3s;
+}

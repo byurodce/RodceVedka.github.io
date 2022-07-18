@@ -1,0 +1,195 @@
+body{
+    background-image: url(https://p0.pikist.com/photos/649/225/storm-clouds-clouds-thunderstorm-grey-sky-gloomy-storm-end-of-the-world-weltuntergang-humor.jpg );
+}
+nav {
+	background-color: #36454f;
+	margin: 0 auto;
+	max-width: 650px;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+    
+}
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+    display: flex;   
+}
+nav ul li a {
+	display: flex;
+	color: #fff;
+    text-decoration: none;
+    padding: 20px;
+	
+}
+.logo{
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.log{
+    display: flex;
+  background-color: rgba(0,0,0,.70);
+	margin: 0 auto;
+	max-width: 900px;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+  padding-bottom: 40px;
+  
+}
+h1{
+    margin-left: 30px;
+    margin-top: 70px;
+    color: white;
+}
+h2{
+    color: white;
+    margin-left: 55px;
+}
+h3{
+    color:white;
+    margin-left: 40px;
+}
+
+.red{
+    max-width: 900px;
+    margin: 0 auto;
+    background: grey;
+}
+.footer ul a{
+    text-decoration: none;
+    color: #fff;
+    padding: 30px;
+}
+.footer ul {
+	list-style-type: none;
+	overflow: hidden;
+    display: flex;
+}
+.BYU{
+    color: #fff;
+    text-decoration: none;
+}
+.tipo{
+     display: flex;
+  background-color: rgba(0,0,0,.70);
+	margin: 0 auto;
+	max-width: 900px;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+}
+.tipo a{
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+.host{
+    float:bottom;
+    color:#36454f;
+    margin-left: 400px;
+    font-size: 20px;
+    animation: mymove 5s infinite;
+    width: 180px;
+}
+@keyframes mymove {
+      from {background-color:#36454f;}
+      to {background-color:black;}
+}
+
+.towns{
+    background-color: rgba(0,0,0,.70);
+    padding: 2%;
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+}
+.data{
+    color: white;
+    margin-left: 40px;
+}
+.rai{
+    color:white;
+    margin-left: 40px;
+}
+.popu{
+    color: white;
+    margin-left: 40px;
+}
+
+
+.data-town{
+    width: 33.3%;
+}
+
+.myImg{
+    width: 90%;
+    height: 250px !important;
+    padding: 1%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+}
+.left{
+    float: left;
+}
+
+.right{
+    float: right !important;
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+  .towns {
+    display: block;
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+  .myImg{
+    width:40%;
+    float: left;
+  }
+  .data-town{
+    width: 100%;
+  }
+  .log{
+    display: block;
+    background-color: rgba(0,0,0,.70);
+	margin: 0 auto;
+	max-width: 900px;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+    padding-bottom: 40px; 
+}
+.logo{
+    margin-top: 50px;
+    margin-left: 40px;
+    width:60%;
+}
+.host{
+    float:bottom;
+    color:#36454f;
+    margin-left: 1px;
+    font-size: 20px;
+    animation: mymove 5s infinite;
+    width: 180px;
+}
+nav ul li{
+	list-style-type: none;
+	overflow: hidden;
+    display: flex; 
+    width: 300px;  
+    padding:0%;
+    margin-left: 1px;
+}
+nav ul{
+    padding-left: 0px;
+}
+nav ul li a {
+    padding: 1px;	
+}
+.myImg{
+    width: 50%;
+    height: 190px !important;
+    margin-bottom:10px;
+}
+.towns{
+    background-color:rgba(10, 0, 0,0.2);
+    padding: 1%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    width: 97%;
+    display: block;
+}
+
+
+}

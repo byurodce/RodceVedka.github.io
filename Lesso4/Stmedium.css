@@ -1,0 +1,17 @@
+@media only screen and (max-width: 800px){
+ .fiel1 label{
+ display: block;
+ }
+ .fiel2 label{
+display: block;
+ }
+ nav ul {
+    display: block;
+    padding:8px;
+    justify-content: center;
+    list-style-type:none;
+    }
+    header figure.Ppal{
+        width: 50%;
+      } 
+}
