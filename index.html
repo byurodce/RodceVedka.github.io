@@ -1,9 +1,51 @@
-<!doctype html>
-<html lang="en-us">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Titulo de la Pagina</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Assignment portal for Cèsar Rodrìguez Costa Rica in WDD 230:
+   Web frontend Develoment at Brigham Young University Online - Idaho">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>AssignmentPortal</title>
 </head>
 <body>
- <h1>Rodrìguez</h1>
+  <header>
+    <h1><b>Cèsar Rodriguez</b></h1>
+  </header>
+  <section>
+     <div class="WDD">
+        <h2>WDD 230: Asignment Portal</h2>
+     </div>
+     <div class="item">
+       <ul>
+        <li>Lesson 01:<a href="https://byui.instructure.com/courses/194452/assignments/9121405?module_item_id=25385496" target="_blank"><b>Course Assignment Portal</b></a></li>
+        <li>Lesson 02:<a href="https://byui.instructure.com/courses/194452/pages/230-development-standards-checklist" target="_blank"><b>Design Principles Document</b></a></li>
+        <li>Lesson 02:<a href="lesso2/lesso2.html"  target="_blank"><b>Lesson 2 Site Plan</b></a></li>
+        <li>Lesson 03:<a href="lesso2/weather/presto.html"  target="_blank"><b>PrestonWeather</b></a></li>
+        <li>Lesson 04:<a href="Lesso4/leazyLoad.html"  target="_blank"><b>Progressive Images</b></a></li>
+        <li>Lesson 04:<a href="Lesso4/gallery-7.html" target="_blank"><b>GalleryPicture</b></a></li>
+        <li>Lesson 04:<a href="Lesso4/stormcter.html" target="_blank"><b>StormCenter</b></a></li>  
+        <li>Lesson 05:<a href="Lesson5/prophets.html" target="_blank"><b>prophets</b></a></li>
+       </ul>
+     </div>
+     <picture class="photo">
+       <img src="foto.jpeg"  alt="photo">
+     </picture>
+  </section>
+  <div class="bottom">
+       <a class="BYU" href="https://www.byui.edu/online" target="_blank">© 2022 | César Rodríguez | Costa Rica |<b>BYU-I Online Learning</b></a>
+       <p id="demo"></p>
+       
+       <script>
+           const d = "Last Updated"+":" + new Date();
+           document.getElementById("demo").innerHTML = d;
+       </script>
+       
+  </div>
 </body>
-</html>  
+</html>
+
+
+
